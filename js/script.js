@@ -10,10 +10,10 @@
  */
 function calculate() {
   // input
-  const height = parseInt(document.getElementById("height-of-rhombus").value)
-  const length = parseInt(document.getElementById("length-of-rhombus").value)
+  const height = parseInt(document.getElementById("height_of_rhombus").value)
+  const length = parseInt(document.getElementById("length_of_rhombus").value)
   // process
   const area = (length * height) / 2
   // output
-  document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
+  document.getElementById("area_of_rhombus").innerHTML = "Area is: " + area_of_rhombus + " cm²"
 }
