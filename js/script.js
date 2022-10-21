@@ -15,6 +15,5 @@ function calculate() {
   // process
   const area = (length * height) / 2
   // output
-  document.getElementById("area_of_rhombus").innerHTML =
-    "Area is: " + area + " cm²"
+  document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
 }
